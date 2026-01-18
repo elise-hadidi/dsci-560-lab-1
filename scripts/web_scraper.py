@@ -19,3 +19,4 @@ html_content = response.text
 
 with open("../data/raw_data/web_data.html", "w", encoding="utf-8") as f:
     f.write(html_content)
+
